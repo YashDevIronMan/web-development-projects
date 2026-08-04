@@ -1,0 +1,22 @@
+body{
+margin:20px;
+font-family: Georgia ,verdana,Monospace,sans-serif;
+}
+
+
+.img{
+width:150px;
+border-radius:10px;
+}
+
+.card{
+display:flex;
+justify-content:space-around;
+padding:20px;
+width:400px;
+margin:0 auto;
+text-align:center;
+background:#0582ca;
+border-bottom:10px solid #004480;
+color:#ffffff;
+}
