@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <link rel = "stylesheet" href="{{url_for('static',filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Enter the table you want</h1>
+
+<form class="text" action = "/table" method = "POST">
+    <input type="text" name = "number">
+    <button class="btn">SEND</button>
+</form>
+
+{%for item in result %}
+    <P class="result">{{item}}</P>
+{%endfor%}
+
+</body>
+</html>

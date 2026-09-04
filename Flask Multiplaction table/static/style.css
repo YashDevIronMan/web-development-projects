@@ -1,0 +1,36 @@
+body{
+margin:0;
+font-family: sans-serif;
+text-align:center;
+background-image: url("images/blackboard.webp");
+background-position:center;
+background-size:1200px;
+background-repeat: no-repeat;
+}
+
+h1{
+color:Purple;
+}
+
+.btn{
+color:#edede9;
+background-color:#023e8a;
+border-radius:70px;
+height:25px;
+width:60px;
+border:none;
+
+}
+
+.result{
+margin-top:20px;
+height:36px;
+color:#f8f9fa;
+}
+
+.text{
+color:red;
+margin-top:40px;
+border-radius:100px;
+margin-left:60px;
+}
